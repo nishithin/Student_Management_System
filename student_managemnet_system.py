@@ -1,7 +1,7 @@
 #Student management system
 #Run data analysis on student marks
 #Find the highest score in each subject
-#Print the name of the highest scorer
+#Print the name of the highest scorer & student name
 
 
 student_1 = {
@@ -24,12 +24,6 @@ student_3 = {
     "social" : 120 }
 
 students = [student_1,student_2,student_3]
-
-
-highest_score_in_science = 0
-highest_score_in_social = 0
-
-
 
 def student_maths(students):
     highest_scorer_name_in_maths = ""
